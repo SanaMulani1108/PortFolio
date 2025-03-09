@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e4ccae4ad2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" class="headermm">
+        <div class="container">
+            <nav>
+                <img src="images/main2.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#checkme">Check Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                  
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Sana </span>Mulani</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sana.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+
+                    <div class="para">
+                        <p style="line-height: 30px; justify-content:center; color:#fff; font-size: 20px;">
+                        I'm Sana and I'm Student. I enjoy taking complex problems and turning them into simple designs using my coding skills. Currently working on enhancing my Problem Solving Skills in Data Structures and Algorithms. Looking forward to collaborate on different open-source projects.
+                        </p>
+                        <div class="edu">
+                            <div class="c1">
+                                
+                              <b style="color: #ff004f; font-size: 18px;" >● &nbsp Bachelor of Technology - Information Technology</b>
+                                <br>
+                                <div class="con" >
+                                    <br>
+                                    <span style="border:2px solid #ff004f; margin-top:10px; padding:5px;">2022-2025</span>
+                                    <p style="margin-top: 15px; font-size: 18px;">Walchand College of Engineering, Sangli</p>
+                                </div>
+                            </div>
+                            <div class="c1">
+                    
+                                <b style="color: #ff004f; font-size: 18px;">● &nbsp Diploma - Computer Engineering</b>
+                                  <br>
+                                  <div class="con" >
+                                      <br>
+                                      <span style="border:2px solid #ff004f; margin-top:10px; padding:5px;">2019-2022</span>
+                                      <p style="margin-top:15px; font-size: 18px;">Government Polytechnic Miraj</p>
+                                  </div>
+                              </div>
+                              <div class="c1">
+                    
+                                <b style="color: #ff004f; font-size: 18px;">● &nbsp Maharshtra State Board - 10th</b>
+                                  <br>
+                                  <div class="con" >
+                                      <br>
+                                      <span style="border:2px solid #ff004f; margin-top:10px; padding:5px;">2013-2019</span>
+                                      <p style="margin-top:15px; font-size: 18px;">Late M.D Karmarkar Highschool Miraj</p>
+                                  </div>
+                              </div>
+                            </div>
+
+
+                        
+                    <!-- <p>I'm Sana Mulani.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Education</p>
+                  
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Bachelor of Technology-Information Technology</span><br>2022-2025<br>Walchand College of Engineering,Sangli</li>
+                            <li><span>Diploma-Computer Engineering</span><br>2019-2022<br>Government Polytechnic,Miraj</li>
+                            <li><span>Secondary School Certificate</span><br>2019<br>Late M.D Karmarkar Highschool,Miraj</li>
+                        </ul>
+                    </div> -->
+                    
+                </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Mobile Shop Management System Using Java</h2>
+                    <p> Developed a comprehensive mobile shop management system with features for inventory tracking, billing, and 
+                        employee attendance. Implemented functionalities for adding, updating, and managing stock of various mobile brands.Automated billing and repair management processes to streamline customer service and improve efficiency. Enabled real-time tracking of employee attendance and performance to support workforce management. </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning Anemia Diagnosis </h2>
+                    <p> Developed ML model for anemia detection using conjunctiva image analysis. 
+                        Implemented ROI extraction and color intensity comparison for anemia diagnosis. 
+                        Built user-friendly frontend interface using Flask for image upload and results display. 
+                        Evaluated model performance with metrics (accuracy, precision, recall, F1-score). </p>
+                   
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Expense Tracker using MERN</h2>
+                    <p>Developed a web-based application for tracking and managing daily expenses, with features to add, update, and 
+                        delete entries.Enabled users to categorize expenses by date, category, and description for easier analysis and budgeting. 
+                        Integrated secure data storage and retrieval using MongoDB, ensuring efficient management of all user expense 
+                        records. Implemented a user-friendly interface, enhancing accessibility and ease of use for seamless expense tracking.  </p>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills-->
+    <div id="skills">
+        <div class="container">
+            <h1 class="subtitle">Skills</h1>
+            <div class="skills-list">
+                <p>Here are some of the programming languages and technologies I'm learning and trying to become an expert at!</p>
+            <!-- <p style="color:white; font-size:22px; font-weight:700">Here are some of the programming languages and technologies I'm learning and trying to become an expert at!</p> -->
+            <div class="bsk">
+                 <img src="images/c.png" alt="">
+                 <img  src="images/cpp.png" alt="">
+                  <img  src="images/java.png" alt="">
+                 <img  src="images/python.png" alt="">
+                  <img  src="images/html.png" alt="">
+                  <img src="images/css-3.png" alt="">
+                  <img  src="images/java-script.png" alt="">
+                  <img  src="images/php.png" alt="">
+                  <img  src="images/react.png" alt="">
+                  <img  src="images/sql.png" alt="">
+                  
+                  
+            </div>
+            </div>
+            
+          
+              
+       
+        </div>
+    </div>
+    
+<!-- check me on -->
+    <div id="checkme">
+        <div class="container">
+            <h1 class="subtitle">Check Me</h1>
+            <div class="check-list">
+                <p>You can check me on the following platforms just by clicking on following logos!!</p>
+             <!-- <p style="color:white; font-size:22px; font-weight:700">Here are some of the programming languages and technologies I'm learning and trying to become an expert at!</p> --> 
+            <div class="bsk">
+                <a href="https://www.hackerrank.com/sanamulani1108"><img src="images/hr.jpg" alt=""></a>
+                <a href="https://auth.geeksforgeeks.org/user/sanamulatrd1"><img src="images/gfg.jpg" alt=""></a>
+                <a href="https://www.codingninjas.com/studio/profile/40491335-796b-4eae-97b0-854b5c9f0858"><img src="images/cn2.jpg" alt=""></a>
+                <a href="https://leetcode.com/sanamulani1108/"><img src="images/leet.jpg" alt=""></a> 
+               
+                  
+                  
+            </div>
+            </div>
+            
+          
+              
+       
+        </div>
+    </div> 
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sanamulani1108@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>  8483011076</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sana-mulani-758074258"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/sana_mulani1108?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/sanamulani1108"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="images/SanaMulani(IT-22620007).pdf" download class="btn btn2" >Download Resume</a>
+                    
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created By Sana <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+<script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemeu.style.right="-200px";
+        }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzwqx9fnvYJbnGTMrs7J1icJPB09ikU1T8_VcaU2krJLo4wmoFlLM2BX7_L_GekcTuR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+
+
+  </script>
+
+
+<script>
+
+const headermm = document.querySelector("headermm");
+
+window.addEventListener("scroll",function(){
+    headermm.classList.toggle("sticky",this.window.scrollY > 200)
+});
+</script>
+</body>
+</html>
